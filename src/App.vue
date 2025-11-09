@@ -2,7 +2,7 @@
  import { RouterLink, RouterView } from 'vue-router'
 </script>
 <template>
- <nav>
+ <nav class="bg-[rgb(125,198,57)]">
  <RouterLink to="/">Exit</RouterLink>
  </nav>
  <RouterView />
