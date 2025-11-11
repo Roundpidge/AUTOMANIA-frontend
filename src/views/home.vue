@@ -6,7 +6,7 @@ import { usePageStore  } from "@/stores/data.js"
 <template>
   <div>
   <h1 class="text-9xl">AUTOMANIA</h1>
-  <img :src="kozmetikaStranice.slike[0].prvi" class=""></img>
+  <img :src="kozmetikaStranice.slike[0].prvi"></img>
    <RouterLink to="/about">Start</RouterLink>
   <RouterView />
   </div>
